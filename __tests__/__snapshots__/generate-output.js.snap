@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateOutput creates the output with the given input 1`] = `
+"             [37mYurick Hauschild[39m / [37myurick_[39m
+
+[37m[1m        Work[22m[39m [37mSoftware Engineer and Developer 🥑  at Novatics[39m
+
+[37m[1m     Twitter[22m[39m [90mhttps://twitter.com/[39m[36myurick_[39m
+[37m[1m         npm[22m[39m [90mhttps://npmjs.com/[39m[31m~yurick_[39m
+[37m[1m      GitHub[22m[39m [90mhttps://github.com/[39m[32mYurickh[39m
+[37m[1m    LinkedIn[22m[39m [90mhttps://linkedin.com/in/[39m[34myurickh[39m
+
+[37m[1m        Card[22m[39m [31mnpx [39m[37myurick[39m"
+`;
