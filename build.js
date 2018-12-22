@@ -6,10 +6,10 @@ const boxen = require('boxen')
 const fs = require('fs')
 const path = require('path')
 
-const { name: packageName } = require('../package.json')
-const info = require('../info')
-const camelCase = require('./camel-case')
-const mapObject = require('./map-object')
+const { name: packageName } = require('./package.json')
+const info = require('./info')
+const camelCase = require('./src/camel-case')
+const mapObject = require('./src/map-object')
 
 const forbidCamel = ['npm', 'npx']
 

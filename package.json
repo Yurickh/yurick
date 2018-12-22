@@ -4,7 +4,7 @@
   "description": "A personal card for Yurick Hauschild (@yurick_)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "yurick": "./bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ."
   },
   "keywords": [
     "card",
@@ -35,6 +35,7 @@
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "eslint": "^5.10.0",
+    "jest": "^23.6.0",
     "prettier": "^1.15.3",
     "standard": "^12.0.1"
   }
